@@ -1104,20 +1104,107 @@ h6 a {
 }
 
 /*--------------------------------------------------------------
+# contact
+--------------------------------------------------------------*/
+.contact {
+  padding: 80px 0px;
+  position: relative;
+}
+@media only screen and (max-width: 1199px) {
+  .contact {
+    padding: 60px 0px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .contact {
+    padding: 40px 0px;
+  }
+}
+.contact .sec-t {
+  text-align: center;
+}
+.contact .sec-t h2 {
+  font-size: 46px;
+  color: #282834;
+  font-weight: 800;
+  margin-bottom: 44px;
+}
+@media only screen and (max-width: 1199px) {
+  .contact .sec-t h2 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .contact .sec-t h2 {
+    font-size: 38px;
+    margin-bottom: 27px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .contact .sec-t h2 {
+    margin-bottom: 22px;
+    font-size: 34px;
+  }
+}
+.contact .con-text h2 {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+@media only screen and (max-width: 991px) {
+  .contact .con-text h2 {
+    font-size: 32px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .contact .con-text h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+}
+.contact .con-text h4 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+@media only screen and (max-width: 767px) {
+  .contact .con-text h4 {
+    font-size: 23px;
+    margin-bottom: 10px;
+  }
+}
+.contact .con-text a {
+  text-decoration: none;
+  display: inline-block;
+  color: #DC2751;
+  font-weight: 500;
+}
+.contact label {
+  color: #282834;
+}
+.contact .frm-grp p {
+  color: #282834;
+  margin-bottom: 3px;
+}
+
+/*--------------------------------------------------------------
 # images-sec
 --------------------------------------------------------------*/
 .images-sec {
   background-color: #1E1E27;
   padding: 80px 0px;
+  padding-bottom: 0;
 }
 @media only screen and (max-width: 1199px) {
   .images-sec {
     padding: 60px 0px;
+    padding-bottom: 0;
   }
 }
 @media only screen and (max-width: 767px) {
   .images-sec {
     padding: 40px 0px;
+    padding-bottom: 0;
   }
 }
 .images-sec .sec-t {
@@ -1203,5 +1290,19 @@ h6 a {
     -webkit-transform: scale(1.14);
             transform: scale(1.14);
   }
+}
+/*--------------------------------------------------------------
+# gallery-slider
+--------------------------------------------------------------*/
+.gallery-slider {
+  padding-top: 50px;
+}
+.gallery-slider .swiper-slide a {
+  display: block;
+  width: 100%;
+}
+.gallery-slider .swiper-slide img {
+  width: 100%;
+  height: auto;
 }
 /*# sourceMappingURL=main.css.map */

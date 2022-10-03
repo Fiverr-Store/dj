@@ -73,12 +73,13 @@
  // WOW active
  new WOW().init();
 
-      /**
- * Testimonials slider
+
+     /**
+ * images slider
  */
-       new Swiper('.logo-slider', {
+      new Swiper('.img-slider', {
         speed: 1200,
-        loop: true,
+        loop: false,
         autoplay: {
           delay: 2000,
           disableOnInteraction: false
@@ -88,6 +89,47 @@
           el: ".swiper-scrollbar",
           hide: false,
         },
+        breakpoints: {
+          320: {
+            slidesPerView: 2,
+            spaceBetween: 0
+          },
+
+          576: {
+            slidesPerView: 2,
+            spaceBetween: 0
+          },
+
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 0
+          },
+
+          992: {
+            slidesPerView: 3,
+            spaceBetween: 0
+          },
+
+          1200: {
+            slidesPerView: 3,
+            spaceBetween: 0
+          }
+        }
+      });
+
+
+      /**
+ * logo slider
+ */
+       new Swiper('.logo-slider', {
+        speed: 1200,
+        loop: true,
+        autoplay: {
+          delay: 2000,
+          disableOnInteraction: false
+        },
+        slidesPerView: 'auto',
+
         breakpoints: {
           320: {
             slidesPerView: 3,
@@ -115,6 +157,49 @@
           }
         }
       });
+
+
+
+        /**
+ * gallery slider
+ */
+         new Swiper('.gallery-slider', {
+          speed: 1200,
+          loop: true,
+          autoplay: {
+            delay: 2000,
+            disableOnInteraction: false
+          },
+          slidesPerView: 'auto',
+
+          breakpoints: {
+            320: {
+              slidesPerView: 3,
+              spaceBetween: 0
+            },
+
+            576: {
+              slidesPerView: 3,
+              spaceBetween: 0
+            },
+
+            768: {
+              slidesPerView: 3,
+              spaceBetween: 0
+            },
+
+            992: {
+              slidesPerView: 4,
+              spaceBetween: 0
+            },
+
+            1200: {
+              slidesPerView: 6,
+              spaceBetween: 0
+            }
+          }
+        });
+
 
 
 
