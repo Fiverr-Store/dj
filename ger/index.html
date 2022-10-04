@@ -7,6 +7,7 @@
   <title> Dj Samir </title>
   <meta name="description" content="" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <base href="http://localhost:8848/">
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -18,7 +19,7 @@
   <link rel="stylesheet" href="assets/css/animate.css" />
   <link rel="stylesheet" href="assets/css/main.css" />
 </head>
-<body>
+<body id="top">
   <!--[if lte IE 9]>
       <p class="browserupgrade">
         You are using an <strong>outdated</strong> browser. Please
@@ -64,7 +65,7 @@
 
             <ul id="nav" class="navbar-nav social ms-auto">
               <li>
-                <a href="/en/">
+                <a href="/">
                   <img src="assets/img/logo/en.svg" alt="">
                 </a>
                 <a href="/ger/">
@@ -116,31 +117,32 @@
   <section id="about" class="about">
     <div class="container">
       <div class="sec-t">
-        <h2> About Me </h2>
+        <h2> ÜBER DJ SAMIR </h2>
       </div><!-- /.sec-t -->
       <div class="abt-text">
         <p>
-          My name is Samir and I have been a DJ with heart and soul for over 25 years now.
+          Mein Name ist Samir und ich bin mittlerweile seit über 25 Jahren DJ mit Herz und Seele.
         </p>
         <p>
-          I started my career as a teenager DJing private parties at high school and university in Egypt. Shortly after I had the
-          opportunity to work for one of the biggest "Sound & Light Company" in Cairo and learned the handling in the field of
-          "Sound & Light concept" through the event department, which booked me regularly as a DJ at hotels in Sharm el Sheikh.
-          Further regular bookings in renowned clubs followed and my career continued to develop on a professional path.
+          Bereits als Teenager begann ich meine Karriere als DJ für private Parties an der High School und an der University in
+          Ägypten. Kurz darauf hatte ich die Möglichkeit bei einer der grössten «Sound & Light Companie» in Kairo zu arbeiten und
+          lernte den Umgang im Bereich «Sound & Light concept» durch die Event-Abteilung, welche mich regelmässig als DJ an Hotels
+          in Sharm el Sheikh buchte. Weitere regelmässige Buchungen in renommierte Clubs folgten und meine Karriere entwickelte
+          sich auf professionellem Weg weiter.
         </p>
         <p>
-          My talent for the right choice of music was more and more in demand for private events, such as weddings, birthdays,
-          corporate events or other private events. My passion for music and my desire to entertain the audience gave me an
-          extraordinary journey through the music industry.
+          Mein Talent für die richtige Musikauswahl war immer öfters auch an privaten Anlässen gefragt, wie auch für Hochzeiten,
+          Geburtstage, Firmenevents oder andere private Events. Meine Leidenschaft für Musik und mein Wunsch das Publikum zu
+          unterhalten, bescheren mir eine aussergewöhnliche Reise durch die Musikindustrie.
         </p>
         <p>
-          Today I have an excellent music set with a wide range of sound styles for the perfect mood on the dance floor, a fast
-          growing fan base and I am also well versed in the technical field. With my years of experience, I can provide you with
-          the best musical moments and skillfully guide the audience through your event.
+          Heute verfüge ich über ein ausgezeichnetes Musikset mit einer breiten Palette an Sound-Stilen für die perfekte Stimmung
+          auf der Tanzfläche, einer schnell wachsenden Fanbase und bin auch im technischen Bereich versiert. Mit meiner
+          langjährigen Erfahrung biete ich Ihnen die besten musikalische Momente und führe das Publikum gekonnt durch Ihren Event.
         </p>
         <p>
-          Currently I am working as a resident DJ in a renowned club in the city of Zurich and am regularly booked for parties at
-          events. Contact me today for a non-binding offer.
+          Aktuell bin ich als Resident DJ in einem renommierten Club in der Stadt Zürich tätig und bin regemässig für Parties an
+          Events gebucht. Kontaktieren Sie mich heute noch für eine unverbindliche Offerte.
         </p>
       </div><!-- /.abt-text -->
     </div><!-- /.container -->
@@ -263,12 +265,32 @@
   <section class="reasons">
     <div class="container">
       <div class="sec-t">
-        <h2> Resson </h2>
-        <p>
-          At the end of the year for a company party, a birthday party or a wedding
-          celebration on the loveliest day of every couple.
+        <h2 class="mb-3"> ANLASS </h2>
+        <p style="color: #FCF906;">
+          Warum DJ Samir der richtige DJ für Ihren Event ist?
         </p>
+
       </div><!-- /.sec-t -->
+
+      <div class="p-text">
+        <div class="row gy-3 justify-content-center">
+          <div class="col-lg-4">
+            <p>
+              Für mich ist Musik eine Leidenschaft, eine Kunst, die es zum Leben zu erwecken gilt. Dank meiner langjährigen
+              Erfahrung im DJ-ing und der Event Organisation, habe ich ein Feingefühl entwickelt, welches mich in hoher Qualität
+              den musikalischen Rahmen gestalten lässt.
+            </p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <p>
+              Es gelingt mir, die Musik auf das Publikum abzustimmen und alle bei guter Laune zu halten. Ein Fest, das Ihnen und
+              Ihren Gästen noch lange in guter Erinnerung bleibt. Sei es zum Jahresende zur Firmenfeier, zur Geburtstagsfeier oder
+              zur Hochzeitsfeier am schönsten Tag jedes Paares.
+            </p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+      </div><!-- /.p-text -->
 
 
       <div class="rsn-con">
@@ -278,15 +300,15 @@
 
               <button class="nav-link active" id="v-pills-one-tab" data-bs-toggle="pill" data-bs-target="#v-pills-one"
                 aria-selected="true">
-                Wedding
+                Hochzeit
               </button>
 
               <button class="nav-link" id="v-pills-two-tab" data-bs-toggle="pill" data-bs-target="#v-pills-two">
-                Birthday
+                Geburtstag
               </button>
 
               <button class="nav-link" id="v-pills-three-tab" data-bs-toggle="pill" data-bs-target="#v-pills-three">
-                Corporate Event
+                Firmenevent
               </button>
 
             </div>
@@ -308,11 +330,11 @@
                   <div class="col-lg-4">
                     <div class="tab-content-txt">
                       <div class="animated fadeInRight">
-                        <h3> Wedding </h3>
-                        <p> On your wedding day I support you musically for unforgettable moments. </p>
-                        <p> - Wishes will be discussed in advance. </p>
-                        <p> - Own music and light system available. </p>
-                        <p> - In case of emergency, a DJ substitute can be organized in your own network. </p>
+                        <h3> Hochzeit </h3>
+                        <p> An Eurem Hochzeitstag unterstütze ich Euch musikalisch für unvergessliche Momente </p>
+                        <p> - Wünsche werden im Voraus besprochen. </p>
+                        <p> - Wünsche werden im Voraus besprochen. </p>
+                        <p> - im Notfall kann ein DJ Ersatz im eigenen Netzwerk organisiert werden.   </p>
                       </div>
                     </div><!-- /.tab-content-txt -->
                   </div><!-- /.col-lg-4 -->
@@ -331,10 +353,10 @@
                   <div class="col-lg-4">
                     <div class="tab-content-txt">
                       <div class="animated fadeInRight">
-                        <h3> Birthday </h3>
-                        <p> I guarantee party atmosphere, enthusiastic guests and a full dance floor. </p>
-                        <p> - Wishes are discussed in advance. </p>
-                        <p> - As an all-round talent, I am exactly the right person to get the party in the right mood. </p>
+                        <h3> Geburtstag </h3>
+                        <p> Ich garantiere Partystimmung, begeisterte Gäste und eine volle Tanzfläche.  </p>
+                        <p> - Wünsche werden im Voraus besprochen.  </p>
+                        <p> - Als Allround-Talent bin ich genau der richtige um die Party in Stimmung zu bringen.  </p>
                       </div>
                     </div><!-- /.tab-content-txt -->
                   </div><!-- /.col-lg-4 -->
@@ -353,10 +375,10 @@
                   <div class="col-lg-4">
                     <div class="tab-content-txt">
                       <div class="animated fadeInRight">
-                        <h3> Corporate Event </h3>
-                        <p> On your wedding day I support you musically for unforgettable moments. </p>
-                        <p> - Wishes are discussed in advance. </p>
-                        <p> - In case of emergency, a DJ replacement can be organized in your own network. </p>
+                        <h3> Firmenevent </h3>
+                        <p>	Durch meine langjährige Erfahrung kann ich auf die Bedürfnisse eines gemischten Publikums eingehen.   </p>
+                        <p> - Wünsche werden im Voraus besprochen.   </p>
+
                       </div>
                     </div><!-- /.tab-content-txt -->
                   </div><!-- /.col-lg-4 -->
@@ -390,8 +412,8 @@
       <div class="sec-t">
         <h2> Sound </h2>
         <p>
-          Here you can find some sound samples of different music styles from my parties.
-          Just have a listen:
+          Hier finden Sie einige Hörproben von verschiedenen Musikstilrichtungen von meinen Parties.
+          Einfach mal reinhören:
         </p>
       </div><!-- /.sec-t -->
 
@@ -716,78 +738,78 @@
 
   <footer class="footer">
     <div class="container">
-     <div class="footer-inner">
-      <div class="row gy-4">
-        <div class="col-lg-4">
-          <div class="footer-logo">
-            <img src="assets/img/logo/logo.png" class="img-logo" alt="">
-            <ul class="social-list">
-              <li>
-                <a href="#">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-instagram" aria-hidden="true"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <i class="fa fa-youtube" aria-hidden="true"></i>
-                </a>
-              </li>
-            </ul>
-          </div><!-- /.footer-logo -->
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <div class="footer-links">
-            <h3> Sitemap </h3>
-            <ul>
-              <li>
-                <a href="#"> <i class="fa fa-chevron-right" aria-hidden="true"></i> Home </a>
-              </li>
-              <li>
-                <a href="#"> <i class="fa fa-chevron-right" aria-hidden="true"></i> About Me </a>
-              </li>
-              <li>
-                <a href="#"> <i class="fa fa-chevron-right" aria-hidden="true"></i> Services </a>
-              </li>
-              <li>
-                <a href="#"> <i class="fa fa-chevron-right" aria-hidden="true"></i> Sound </a>
-              </li>
-              <li>
-                <a href="#"> <i class="fa fa-chevron-right" aria-hidden="true"></i> Contact </a>
-              </li>
-            </ul>
-          </div><!-- /.footer-links -->
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <div class="footer-links">
-            <h3> Contact Info </h3>
-            <div class="flex mb-3">
-              <i class="fa fa-map-marker" aria-hidden="true"></i>
-              <div class="flx-t">
-                <h5> Our Location: </h5>
-                <p> Lorem ipsum <br> dolor sit <br> ametpn </p>
-              </div><!-- /.flx-t -->
-            </div><!-- /.flex -->
-            <div class="flex">
-              <i class="fa fa-phone" aria-hidden="true"></i>
-              <div class="flx-t">
-                <h5> Phones: </h5>
-                <a href="tel:+41763968311"> +41 (0)76 396 83 11 </a>
-              </div><!-- /.flx-t -->
-            </div><!-- /.flex -->
-          </div><!-- /.footer-links -->
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
-     </div><!-- /.footer-inner -->
+      <div class="footer-inner">
+        <div class="row gy-4">
+          <div class="col-lg-4">
+            <div class="footer-logo">
+              <img src="assets/img/logo/logo.png" class="img-logo" alt="">
+              <ul class="social-list">
+                <li>
+                  <a href="#">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-youtube" aria-hidden="true"></i>
+                  </a>
+                </li>
+              </ul>
+            </div><!-- /.footer-logo -->
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <div class="footer-links">
+              <h3> Sitemap </h3>
+              <ul>
+                <li>
+                  <a href="#"> <i class="fa fa-chevron-right" aria-hidden="true"></i> Home </a>
+                </li>
+                <li>
+                  <a href="#"> <i class="fa fa-chevron-right" aria-hidden="true"></i> About Me </a>
+                </li>
+                <li>
+                  <a href="#"> <i class="fa fa-chevron-right" aria-hidden="true"></i> Services </a>
+                </li>
+                <li>
+                  <a href="#"> <i class="fa fa-chevron-right" aria-hidden="true"></i> Sound </a>
+                </li>
+                <li>
+                  <a href="#"> <i class="fa fa-chevron-right" aria-hidden="true"></i> Contact </a>
+                </li>
+              </ul>
+            </div><!-- /.footer-links -->
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <div class="footer-links">
+              <h3> Contact Info </h3>
+              <div class="flex mb-3">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <div class="flx-t">
+                  <h5> Our Location: </h5>
+                  <p> Lorem ipsum <br> dolor sit <br> ametpn </p>
+                </div><!-- /.flx-t -->
+              </div><!-- /.flex -->
+              <div class="flex">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <div class="flx-t">
+                  <h5> Phones: </h5>
+                  <a href="tel:+41763968311"> +41 (0)76 396 83 11 </a>
+                </div><!-- /.flx-t -->
+              </div><!-- /.flex -->
+            </div><!-- /.footer-links -->
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+      </div><!-- /.footer-inner -->
     </div><!-- /.container -->
 
     <div class="footer-legal">
@@ -801,7 +823,7 @@
 
 
 
-  <a href="#" class="scroll-top btn-hover">
+  <a  href="#top" class="scroll-top btn-hover page-scroll">
     <img src="assets/img/chev-white.svg" alt="chev">
   </a>
   <!--.scroll-top-->
