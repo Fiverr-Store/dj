@@ -512,7 +512,8 @@ h6 a {
   position: relative;
 }
 .hero-area .hero-inner svg {
-  height: 115px;
+  width: 100%;
+  height: 120px;
 }
 @media only screen and (max-width: 991px) {
   .hero-area .hero-inner svg {
@@ -1176,7 +1177,7 @@ h6 a {
 .contact .con-text a {
   text-decoration: none;
   display: inline-block;
-  color: #DC2751;
+  color: #282834;
   font-weight: 500;
 }
 .contact label {
@@ -1248,63 +1249,9 @@ h6 a {
   }
 }
 .images-sec .testimonial-item {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
-  margin: 40px 30px;
-  background: #fff;
   text-align: center;
 }
-@media only screen and (max-width: 767px) {
-  .images-sec .testimonial-item {
-    margin: 30px 12px;
-    margin-top: 10px;
-  }
-}
-@media only screen and (max-width: 482px) {
-  .images-sec .testimonial-item {
-    margin: 10px 5px;
-    margin-top: 0;
-  }
-}
-.images-sec .swiper-slide {
-  opacity: 0.3;
-  opacity: 1;
-  -webkit-transition: 0.5s ease-in-out;
-  transition: 0.5s ease-in-out;
-}
-.images-sec .swiper-scrollbar {
-  background: #DC2751;
-  height: 1px;
-  position: relative;
-  margin-top: 30px;
-}
-@media only screen and (max-width: 482px) {
-  .images-sec .swiper-scrollbar {
-    margin-top: 20px;
-  }
-}
-.images-sec .swiper-scrollbar-drag {
-  height: 4px;
-  background: yellow;
-  border-radius: 0;
-  top: -2px;
-}
 
-@media (max-width: 1199px) {
-  .img-slider .swiper-slide-active {
-    opacity: 1;
-  }
-  .img-slider .swiper-pagination {
-    margin-top: 0;
-  }
-}
-@media (min-width: 768px) {
-  .img-slider .swiper-slide-next {
-    opacity: 1;
-    -webkit-transform: scale(1.14);
-            transform: scale(1.14);
-  }
-}
 /*--------------------------------------------------------------
 # gallery-slider
 --------------------------------------------------------------*/
@@ -1325,6 +1272,9 @@ h6 a {
 --------------------------------------------------------------*/
 .footer {
   background-color: #282834;
+  background-image: url("../img/hero/footer-bg.png");
+  background-position: center bottom 26px;
+  background-repeat: no-repeat;
 }
 .footer .footer-inner {
   padding: 60px 0px;

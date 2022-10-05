@@ -33,7 +33,8 @@
   .hero-inner{
     position: relative;
     svg{
-      height: 115px;
+      width: 100%;
+      height: 120px;
       @media only screen and (max-width: 991px) {
        height: 100px;
       }

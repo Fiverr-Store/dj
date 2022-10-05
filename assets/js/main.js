@@ -85,34 +85,31 @@
           disableOnInteraction: false
         },
         slidesPerView: 'auto',
-        scrollbar: {
-          el: ".swiper-scrollbar",
-          hide: false,
-        },
+
         breakpoints: {
           320: {
             slidesPerView: 2,
-            spaceBetween: 0
+            spaceBetween: 10
           },
 
           576: {
             slidesPerView: 2,
-            spaceBetween: 0
+            spaceBetween: 10
           },
 
           768: {
             slidesPerView: 3,
-            spaceBetween: 0
+            spaceBetween: 15
           },
 
           992: {
             slidesPerView: 3,
-            spaceBetween: 0
+            spaceBetween: 20
           },
 
           1200: {
             slidesPerView: 3,
-            spaceBetween: 0
+            spaceBetween: 25
           }
         }
       });
@@ -167,7 +164,7 @@
           speed: 1200,
           loop: true,
           autoplay: {
-            delay: 2000,
+            delay: 3000,
             disableOnInteraction: false
           },
           slidesPerView: 'auto',

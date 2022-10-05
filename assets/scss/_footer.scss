@@ -3,6 +3,9 @@
 --------------------------------------------------------------*/
 .footer{
   background-color: $bg-nav-collapse;
+  background-image: url('../img/hero/footer-bg.png');
+  background-position: center bottom 26px;
+    background-repeat: no-repeat;
   .footer-inner{
     padding: 60px 0px;
     @media only screen and (max-width: 767px) {
