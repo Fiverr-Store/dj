@@ -79,7 +79,7 @@
  */
       new Swiper('.img-slider', {
         speed: 1200,
-        loop: false,
+        loop: true,
         autoplay: {
           delay: 2000,
           disableOnInteraction: false
